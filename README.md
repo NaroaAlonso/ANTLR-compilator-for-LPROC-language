@@ -28,6 +28,7 @@ fin
 
 
 
+
 The profile of a procedure has a name, parameters and results.
 Internally the procedure is structires with a set of local variables and
 a sequence of instructions. Elemental types are "entero" (corresponding to
