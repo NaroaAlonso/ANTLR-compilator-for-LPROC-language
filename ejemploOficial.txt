@@ -1,0 +1,19 @@
+buscar (entero e, vector(entero)[1..n] v) devuelve (booleano, entero)
+
+variables locales:
+ 	booleano resultado;
+ 	entero elemento, i;
+ 	
+instrucciones:
+ 	(resultado, i)=(falso, 1);
+ 	mientras (resultado == falso y i<=numeroElementos(v)) hacer
+ 		elemento = v[i];
+ 		si (elemento == e) entonces
+ 			resultado = cierto;
+ 		sino
+ 			i=i+1;
+ 		finsi
+ 	finmientras
+ 	devuelve (resultado,i);
+
+fin
