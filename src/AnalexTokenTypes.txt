@@ -1,57 +1,61 @@
-// $ANTLR : Analex.g -> AnalexTokenTypes.txt$
-Analex    // output token vocab name
-PROCEDURE=4
-PERFIL=5
-NOMBRE=6
-PARAMETROS=7
-RESULTADOS=8
-VARIABLESLOCALES=9
-INSTRS=10
-VARS=11
-EXPRS=12
-IDENT=13
-PA=14
-PC=15
-DEV="devuelve"=16
-COMA=17
-VARIABLES="variables"=18
-LOCALES="locales"=19
-DP=20
-PyC=21
-INSTRUCCIONES="instrucciones"=22
-FIN="fin"=23
-ASIG=24
-MIENTRAS="mientras"=25
-HACER="hacer"=26
-FINMIENTRAS="finmientras"=27
-SI="si"=28
-ENTONCES="entonces"=29
-SINO="sino"=30
-FINSI="finsi"=31
-VECTOR="vector"=32
-CA=33
-RANGO=34
-CC=35
-ENTERO="entero"=36
-BOOLEANO="booleano"=37
-NUMERO=38
-Y="y"=39
-O="o"=40
-MAYOR=41
-MENOR=42
-MAYORIGUAL=43
-MENORIGUAL=44
-IGUAL=45
-DISTINTO=46
-MAS=47
-MENOS=48
-POR=49
-DIV=50
-FALSO="falso"=51
-CIERTO="cierto"=52
-NO="no"=53
-NL=54
-DIGITO=55
-LETRA=56
-BTN=57
-OP=58
+// $ANTLR : "Analex.g" -> "Analex.java"$
+
+public interface AnalexTokenTypes {
+	int EOF = 1;
+	int NULL_TREE_LOOKAHEAD = 3;
+	int PROCEDURE = 4;
+	int PERFIL = 5;
+	int NOMBRE = 6;
+	int PARAMETROS = 7;
+	int RESULTADOS = 8;
+	int VARIABLESLOCALES = 9;
+	int INSTRS = 10;
+	int VARS = 11;
+	int EXPRS = 12;
+	int IDENT = 13;
+	int PA = 14;
+	int PC = 15;
+	int DEV = 16;
+	int COMA = 17;
+	int VARIABLES = 18;
+	int LOCALES = 19;
+	int DP = 20;
+	int PyC = 21;
+	int INSTRUCCIONES = 22;
+	int FIN = 23;
+	int ASIG = 24;
+	int MIENTRAS = 25;
+	int HACER = 26;
+	int FINMIENTRAS = 27;
+	int SI = 28;
+	int ENTONCES = 29;
+	int SINO = 30;
+	int FINSI = 31;
+	int VECTOR = 32;
+	int CA = 33;
+	int RANGO = 34;
+	int CC = 35;
+	int ENTERO = 36;
+	int BOOLEANO = 37;
+	int NUMERO = 38;
+	int Y = 39;
+	int O = 40;
+	int MAYOR = 41;
+	int MENOR = 42;
+	int MAYORIGUAL = 43;
+	int MENORIGUAL = 44;
+	int IGUAL = 45;
+	int DISTINTO = 46;
+	int MAS = 47;
+	int MENOS = 48;
+	int POR = 49;
+	int DIV = 50;
+	int FALSO = 51;
+	int CIERTO = 52;
+	int NO = 53;
+	int NL = 54;
+	int DIGITO = 55;
+	int LETRA = 56;
+	int BTN = 57;
+	int OP = 58;
+}
